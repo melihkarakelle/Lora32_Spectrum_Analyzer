@@ -24,10 +24,10 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 int rssi_val[128] ;
 uint8_t channel_no = 0;
 
-long main_frequency = 750000000;
+long main_frequency = 830000000;
 long frequency = 0;
 
-long SignalBandwidth = 2400E3;
+long SignalBandwidth = 500E3;
 
 int max_rssi = 0;
 long max_rssi_frequency = 0;
